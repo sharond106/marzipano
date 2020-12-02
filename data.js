@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-360-panorama-matador-seo",
-      "name": "360-panorama-matador-seo",
+      "id": "0-",
+      "name": "",
       "levels": [
         {
           "tileSize": 256,
@@ -12,29 +12,26 @@ var APP_DATA = {
         {
           "tileSize": 512,
           "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
         }
       ],
-      "faceSize": 256,
+      "faceSize": 1000,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": -0.6344032679315159,
+        "pitch": -0.11041796888909161,
+        "fov": 1.279946808713648
       },
       "linkHotspots": [],
-      "infoHotspots": [
-        {
-          "yaw": 1.6205387882419426,
-          "pitch": 0,
-          "title": "Title",
-          "text": "Text"
-        }
-      ]
+      "infoHotspots": []
     }
   ],
   "name": "Project Title",
   "settings": {
     "mouseViewMode": "drag",
-    "autorotateEnabled": true,
+    "autorotateEnabled": false,
     "fullscreenButton": false,
     "viewControlButtons": false
   }
